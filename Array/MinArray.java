@@ -1,0 +1,18 @@
+package Array;
+
+public class MinArray {
+    public static void main(String[] args)
+    {
+        int arr[] = {23,12,15,-20,25};
+        int n = arr.length;
+        int min=arr[0];
+        for(int i =0; i<n; i++)
+        {
+            if(min>arr[i])
+            {
+                min = arr[i];
+            }
+        }
+        System.out.println(min);
+    }
+}
